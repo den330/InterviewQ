@@ -24,6 +24,8 @@ class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeFunc))
+        self.view.addGestureRecognizer(swipe)
         guard let addArray = addArray else{
             return
         }
@@ -37,6 +39,10 @@ class MapViewController: UIViewController {
         }
         let camera = GMSCameraPosition.camera(withLatitude: Double(addArray[1].0)!, longitude: Double(addArray[1].1)!, zoom: 16)
         mapView.camera = camera
+    }
+    
+    @objc func swipeFunc(){
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
 
