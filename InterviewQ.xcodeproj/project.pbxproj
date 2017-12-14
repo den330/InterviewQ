@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0485717446B2B13170C7FB6 /* Pods_InterviewQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58A11905B46DA4E40C452AE /* Pods_InterviewQ.framework */; };
+		A8039E061FE3263100AAEA16 /* LCBOConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8039E051FE3263100AAEA16 /* LCBOConnect.swift */; };
+		A8039E081FE32FE500AAEA16 /* MapSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8039E071FE32FE500AAEA16 /* MapSB.storyboard */; };
+		A8039E0A1FE3303E00AAEA16 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8039E091FE3303E00AAEA16 /* MapViewController.swift */; };
 		A85AC7D81FE323FC0054B12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85AC7D71FE323FC0054B12D /* AppDelegate.swift */; };
 		A85AC7DA1FE323FC0054B12D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85AC7D91FE323FC0054B12D /* ViewController.swift */; };
 		A85AC7DD1FE323FC0054B12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85AC7DB1FE323FC0054B12D /* Main.storyboard */; };
 		A85AC7DF1FE323FC0054B12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85AC7DE1FE323FC0054B12D /* Assets.xcassets */; };
 		A85AC7E21FE323FC0054B12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85AC7E01FE323FC0054B12D /* LaunchScreen.storyboard */; };
+		A85AC7EC1FE3242A0054B12D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85AC7EB1FE3242A0054B12D /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8039E051FE3263100AAEA16 /* LCBOConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCBOConnect.swift; sourceTree = "<group>"; };
+		A8039E071FE32FE500AAEA16 /* MapSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapSB.storyboard; sourceTree = "<group>"; };
+		A8039E091FE3303E00AAEA16 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A85AC7D41FE323FC0054B12D /* InterviewQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85AC7D71FE323FC0054B12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85AC7D91FE323FC0054B12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		A85AC7DE1FE323FC0054B12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85AC7E11FE323FC0054B12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85AC7E31FE323FC0054B12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85AC7EB1FE3242A0054B12D /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		CDC6E3D2774954F54CEAFED0 /* Pods-InterviewQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ.debug.xcconfig"; sourceTree = "<group>"; };
+		E57ADC85A29E2FD775321B88 /* Pods-InterviewQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ.release.xcconfig"; sourceTree = "<group>"; };
+		E58A11905B46DA4E40C452AE /* Pods_InterviewQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0485717446B2B13170C7FB6 /* Pods_InterviewQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481227C893716E429B18DFF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E58A11905B46DA4E40C452AE /* Pods_InterviewQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A85AC7CB1FE323FC0054B12D = {
 			isa = PBXGroup;
 			children = (
 				A85AC7D61FE323FC0054B12D /* InterviewQ */,
 				A85AC7D51FE323FC0054B12D /* Products */,
+				E93D4999B7DF52A8F478985F /* Pods */,
+				481227C893716E429B18DFF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +83,21 @@
 				A85AC7DE1FE323FC0054B12D /* Assets.xcassets */,
 				A85AC7E01FE323FC0054B12D /* LaunchScreen.storyboard */,
 				A85AC7E31FE323FC0054B12D /* Info.plist */,
+				A85AC7EB1FE3242A0054B12D /* Global.swift */,
+				A8039E051FE3263100AAEA16 /* LCBOConnect.swift */,
+				A8039E071FE32FE500AAEA16 /* MapSB.storyboard */,
+				A8039E091FE3303E00AAEA16 /* MapViewController.swift */,
 			);
 			path = InterviewQ;
+			sourceTree = "<group>";
+		};
+		E93D4999B7DF52A8F478985F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6E3D2774954F54CEAFED0 /* Pods-InterviewQ.debug.xcconfig */,
+				E57ADC85A29E2FD775321B88 /* Pods-InterviewQ.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A85AC7E61FE323FC0054B12D /* Build configuration list for PBXNativeTarget "InterviewQ" */;
 			buildPhases = (
+				64F33D7259BFFE61C25A291F /* [CP] Check Pods Manifest.lock */,
 				A85AC7D01FE323FC0054B12D /* Sources */,
 				A85AC7D11FE323FC0054B12D /* Frameworks */,
 				A85AC7D21FE323FC0054B12D /* Resources */,
+				0361908D09463E137E9CAFE7 /* [CP] Embed Pods Frameworks */,
+				73827BE41617A4AEA1EF0044 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +164,69 @@
 			files = (
 				A85AC7E21FE323FC0054B12D /* LaunchScreen.storyboard in Resources */,
 				A85AC7DF1FE323FC0054B12D /* Assets.xcassets in Resources */,
+				A8039E081FE32FE500AAEA16 /* MapSB.storyboard in Resources */,
 				A85AC7DD1FE323FC0054B12D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0361908D09463E137E9CAFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F33D7259BFFE61C25A291F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterviewQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73827BE41617A4AEA1EF0044 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterviewQ/Pods-InterviewQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A85AC7D01FE323FC0054B12D /* Sources */ = {
@@ -138,6 +235,9 @@
 			files = (
 				A85AC7DA1FE323FC0054B12D /* ViewController.swift in Sources */,
 				A85AC7D81FE323FC0054B12D /* AppDelegate.swift in Sources */,
+				A8039E061FE3263100AAEA16 /* LCBOConnect.swift in Sources */,
+				A8039E0A1FE3303E00AAEA16 /* MapViewController.swift in Sources */,
+				A85AC7EC1FE3242A0054B12D /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +372,7 @@
 		};
 		A85AC7E71FE323FC0054B12D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC6E3D2774954F54CEAFED0 /* Pods-InterviewQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +388,7 @@
 		};
 		A85AC7E81FE323FC0054B12D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57ADC85A29E2FD775321B88 /* Pods-InterviewQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

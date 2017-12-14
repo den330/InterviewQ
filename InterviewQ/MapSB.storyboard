@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xxf-aD-kMj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="YbH-x3-vXF">
+            <objects>
+                <viewController id="Xxf-aD-kMj" customClass="MapViewController" customModule="InterviewQ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qnp-UP-eId">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nLo-ry-1Aj" customClass="GMSMapView">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="9y3-8k-y29"/>
+                                    <constraint firstAttribute="height" constant="300" id="ViQ-FF-KcT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nLo-ry-1Aj" firstAttribute="centerX" secondItem="Qnp-UP-eId" secondAttribute="centerX" id="fjb-qm-PPf"/>
+                            <constraint firstItem="nLo-ry-1Aj" firstAttribute="centerY" secondItem="Qnp-UP-eId" secondAttribute="centerY" id="pee-d5-RqJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uHQ-Jw-zy4"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="nLo-ry-1Aj" id="XFh-n5-11D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEJ-Du-qaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="108"/>
+        </scene>
+    </scenes>
+</document>
